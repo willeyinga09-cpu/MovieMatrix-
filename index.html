@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieMatrix | Premium</title>
+    <link rel="stylesheet" href="color.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="header-left">
+                <a href="index.html" class="logo-link">
+                    <img src="images/logo.jpg" alt="Logo" class="site-logo">
+                    <span class="brand-name">Movie<span>Matrix🍿</span></span>
+                </a>
+            </div>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#" id="nav-home">Home</a></li>
+                <li><a href="#" id="nav-reg">Registration</a></li>
+                <li><a href="#" id="nav-help">Help</a></li>
+            </ul>
+
+            <div class="header-right">
+                <select id="lang-selector">
+                    <option value="en">EN</option>
+                    <option value="fr">FR</option>
+                </select>
+                <div class="menu-toggle" id="mobile-menu">☰</div>
+            </div>
+
+    </header>
+
+    <!-- VEDETTE SECTION (IMAGE) -->
+    <section class="hero-section">
+        <div class="hero-content">
+             <div class="badge-top">VF+VOSTFR</div>
+            <div class="rating">10.0</div>
+            <h1 id="hero-title">It Welcome To Derry</h1>
+            <p id="hero-meta">2025 • Horror • 2h 49min</p>
+            <div class="hero-buttons">
+                <button class="buy-btn" id="btn-buy">Buy Ticket</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FILTER BAR -->
+    <div class="filter-bar">
+        <h2 id="gallery-title">Now Showing</h2>
+        <select id="genre-filter">
+            <option value="all" id="lang-all">All Genres</option>
+            <option value="Action">Action</option>
+            <option value="Drama" id="lang-drama">Drama</option>
+            <option value="Sci-Fi" id="lang-scifi">Sci-Fi</option>
+            <option value="Adventure" id="lang-adventure">Adventure</option>
+            <option value="Horror" id="lang-horror">Horror</option>
+        </select>
+    </div>
+
+    <!-- MOVIE LIST -->
+    <main id="movie-gallery" class="gallery-container"></main>
+
+    <!-- FOOTER WITH CONTACTS -->
+    <footer>
+        <div class="footer-content">
+            <h3 id="footer-contact">My Contact Info</h3>
+            <p>📧 Email: <span class="accent">willeyinga09@gmail.com</span></p>
+            <p>📞 Tel: <span class="accent">+237 651766157/640916581</span></p>
+            <p>📍 Location: <span class="accent">Douala, Cameroon</span></p>
+            <div class="social-icons">f t i</div>
+            <p class="copyright">© 2026 MovieMatrix copyright.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
